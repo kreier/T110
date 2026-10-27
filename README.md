@@ -1,10 +1,17 @@
 # T110 Robot with Bluetooth 4.0
 
-### 2019-03-30 Update
+![GitHub License](https://img.shields.io/github/license/kreier/T110)
+![GitHub Release](https://img.shields.io/github/v/release/kreier/T110)
 
-I could not find a software using plain Bluetooth 4.0 with iOS devices. But there is a good BLE (Bluetooth Low Energy) controller from DFRobot out there. The communication is a little more complicated than the plain strait forward Serial interface with just 2 defined pins for RX and TX and the connection speed, but I made it work: [Project ESP32](../../../ESP32).
+## 2026-10-27 Review
 
-### 2018-10-03 Initial thoughts
+The path to Bluetooth 4.0 or better BLE was a long one. I have a few serial bluetooth adapter that also work with BLE. But for this robot project we just had to swap the 4 wires for VCC, GND, TX and RX from one module to another to upgrade from the T100 to the T110.
+
+## 2019-03-30 Update
+
+I could not find a software using plain Bluetooth 4.0 with iOS devices. But there is a good BLE (Bluetooth Low Energy) controller from DFRobot out there. The communication is a little more complicated than the plain strait forward Serial interface with just 2 defined pins for RX and TX and the connection speed, but I made it work: [Project ESP32](https://github.com/kreier/ESP32).
+
+## 2018-10-03 Initial thoughts
 
 Arduino robot with Bluetooth 4.0 control
 
